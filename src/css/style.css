@@ -1,0 +1,139 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.container {
+    width: 1470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.seacrh-container {
+    width: 100vw;
+    background-image: linear-gradient(to right, rgb(234, 231, 231), rgb(126, 124, 124));
+    position: fixed;
+    padding-top: 20px;
+}
+
+.gallery-container {
+    padding-top: 76px;
+}
+.search-form {
+    text-align: center;
+}
+
+button[type="submit"] {
+    margin-left: 15px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(53, 74, 82);
+    color: rgb(219, 209, 195);
+}
+
+input[type="text"] {
+    height: 26px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border: 2px solid rgb(53, 74, 82);
+    color: rgbrgb(53, 74, 82);
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: rgb(53, 74, 82);
+}
+
+input[type="text"]:hover, 
+input[type="text"]:focus {
+    border: 1px solid rgb(3, 3, 50);
+    outline: rgb(8, 8, 49);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.link-card {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: calc(100%/4 - 10px)
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.info-item {
+    margin-left: 15px;
+    color: rgb(124, 18, 18) ;
+}
+
+.link-card:hover .info-item, .link-card:focus .info-item {
+    color: rgb(234, 26, 26);
+}
+
+.load-more {
+    border-radius: 25px;
+    padding: 10px 40px;
+    border: none;
+    background-color: rgb(53, 74, 82);
+    color: rgb(219, 209, 195);
+}
+
+.load-more-container {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
